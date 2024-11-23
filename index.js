@@ -4,7 +4,7 @@ const app = express();
 const PORT = 8080;
 
 app.get("/", (req, res) => {
-    res.send("Hello Azure");
+    res.send("Hello Azure")
 });
 app.get("/test", (req, res) => {
     res.send("Hello Azure Test");
